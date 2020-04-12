@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Edgar I. Morales">
+    <link type="text/css" rel="stylesheet" href="styles/style.css">
+    <script src="https://use.fontawesome.com/7cf544cf2d.js"></script>
+    <title>FILNYC</title>
+</head>
+<body id="main-body">
+    <section id="banner">
+        <div id="banner-logo">
+            <img src="images/FILNYC%20logo.png" alt="logo image">
+        </div>
+        <div id="banner-pictures">
+            <div>
+                <img src="images/small-sizes/banner1.jpg"
+                     srcset="images/small-sizes/banner1.jpg 240w,
+                                images/medium-sizes/banner1.jpg 400w,
+                                images/banner1.jpg 799w" alt="event-image">
+            </div>
+            <div>
+                <img src="images/small-sizes/banner2.jpg"
+                     srcset="images/small-sizes/banner2.jpg 239w,
+                                images/medium-sizes/banner2.jpg 399w,
+                                images/banner2.jpg 799w" alt="event-image">
+            </div>
+            <div>
+                <img src="images/small-sizes/banner3.jpg"
+                     srcset="images/small-sizes/banner3.jpg 240w,
+                                images/medium-sizes/banner3.jpg 400w,
+                                images/banner3.jpg 799w" alt="event-image">
+            </div>
+        </div>
+    </section>
+
+    <section id="content">
+        <section id="left-footer">
+            <div id="social-media">
+                <a class="media" href="https://www.facebook.com/CUNYMSI/"><i id="facebook" class="fa fa-facebook fa-2x"></i></a>
+                <a class="media" href="https://twitter.com/cunymsi?lang=en"><i class="fa fa-twitter fa-2x"></i></a>
+                <a class="media" href="https://www.instagram.com/cunymsi/?hl=en"><i class="fa fa-instagram fa-2x"></i></a>
+                <a class="media" href="https://www.youtube.com/channel/UCN2gDLo53Brlfwi6BQ9ZhjA/featured"><i class="fa fa-youtube fa-2x"></i></a>
+            </div>
+            <a id="convocatoria20" href="#">Convocatoria 2020</a>
+            <a id="programa20" href="#">Programa 2020</a>
+            <a id="programa19" href="documents/ProgramaFILNYC2019.png">Programa 2019</a>
+        </section>
+        <section id="page-content">
+            <div class="container">
+                <div class="navbar">
+                    <div class="icon-bar" onclick="Show()">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </div>
+
+                    <ul id="nav-lists">
+                        <li class="close"><span onclick="Hide()">×</span></li>
+                        <li><a href="index.html">QUIÉNES SOMOS</a></li>
+                        <li><a href="gallery.html">GALERÍA</a></li>
+                        <li><a class="nav-active" href="contact.html">CONTACTO</a></li>
+                    </ul>
+
+                </div>
+                <div class="logo">
+                    <a href="index.html"><img src="images/MSAL.png" alt="logo"></a>
+                </div>
+            </div>
+            <div id="contacts" class="body">
+                <p class="title"><br>Oficina General</p>
+                <p>250 Bedford Park Blvd West
+                <br>Carman Hall 241
+                <br>Bronx, NY 10468</p><br>
+
+                <p><span class="title">Email:</span> <span id="email">mexican.studies@lehman.cuny.edu</span></p>
+                <p><span class="title">Tel:</span> <span id="phone">347-577-4080</span></p>
+
+                <br><p class="title">Dirección General</p>
+                <p>José Higuera López</p>
+
+                <br><p class="title">Coordinación General</p>
+                <p>Rosalía Reyes</p>
+
+                <br><p class="title">Curación Programa Poético</p>
+                <p>Carlos Aguasaco</p>
+
+                <br><p class="title">Coordinación de Montaje</p>
+                <p>Isela Herrera Favela</p>
+
+                <br><p class="title">Coordinación de Logística</p>
+                <p>Claudia Norman</p>
+
+                <br><p class="title">Coordinación de Prensa y Difusión</p>
+                <p>Silvia Siller-Heller</p>
+            </div>
+        </section>
+    </section>
+
+    <footer>
+        <div id="mobile-content">
+            <div id="social-media-links">
+                <a class="media" href="https://www.facebook.com/CUNYMSI/"><i class="fa fa-facebook fa-2x"></i></a>
+                <a class="media" href="https://twitter.com/cunymsi?lang=en"><i class="fa fa-twitter fa-2x"></i></a>
+                <a class="media" href="https://www.instagram.com/cunymsi/?hl=en"><i class="fa fa-instagram fa-2x"></i></a>
+                <a class="media" href="https://www.youtube.com/channel/UCN2gDLo53Brlfwi6BQ9ZhjA/featured"><i class="fa fa-youtube fa-2x"></i></a>
+            </div>
+            <a id="convocatoria20-mobile" href="#">Convocatoria 2020</a>
+            <a id="programa20-mobile" href="#">Programa 2020</a>
+            <a id="programa19-mobile" href="documents/ProgramaFILNYC2019.png">Programa 2019</a>
+        </div>
+    </footer>
+
+    <button onclick="topFunction()" id="top" title="Go to top"><i class="fa fa-arrow-up"></i></button>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="date"><h3>Fechas: 2, 3 y 4 de octubre 2020</h3>
+                <h3>Lugar: Instituto Cervantes NY</h3></div>
+            <br>
+            <div id="modal-logo">
+                <img src="images/FILNYC%20logo.png" alt="FILNYC logo">
+            </div>
+            <div id="modal-text">
+                <h4>¿Deseas participar en la FILNYC 2020?</h4>
+                <br>
+                <p>
+                    Envía tu propuesta a: <span id="modal-email">mexican.studies@lehman.cuny.edu</span><br>
+                    <br>Incluye: Tu nombre completo, email, teléfono, título del libro que deseas presentar, tu biografía en 150
+                    palabras, resumen del libro en 150 palabras, tu foto y foto de la portada del libro en alta resolución.
+                    <br><br>Fecha límite para recibir propuestas: 31 de marzo 2020
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="modal-program" class="modal">
+        <div class="modal-content">
+            <span class="close-modal-program">&times;</span>
+            <div class="spin-container">
+                <div class="spin" id="loader"></div>
+                <div class="spin" id="loader2"></div>
+                <div class="spin" id="loader3"></div>
+                <div class="spin" id="loader4"></div>
+                <span id="text">En Progreso...</span>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" rel="script" src="scripts/script.js"></script>
+</body>
+</html>
